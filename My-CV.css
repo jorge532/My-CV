@@ -1,5 +1,11 @@
+header {
+    color: darkblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 body {
-    background-color: darkgray;
+    background-image: url("backgroung.jpg");
 }
 
 h1 {
@@ -14,8 +20,8 @@ h1 {
 }
 
 .grit-container {
-    grid-template-columns: grid-template-columns: 12px 12px 12px;
-    grid-template-rows: 12px 12px 12px;
+    grid-template-columns: grid-template-columns: 25px 25px 25px;
+    grid-template-rows: 25px 25px 25px;
     grid-area: auto;
     font-style: italic;
     align-items: center;
