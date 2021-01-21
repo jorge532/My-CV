@@ -19,11 +19,13 @@ h1 {
     border-image: fill;
 }
 
-.grit-container {
-    grid-template-columns: grid-template-columns: 25px 25px 25px;
-    grid-template-rows: 25px 25px 25px;
-    grid-area: auto;
-    font-style: italic;
-    align-items: center;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grit-item {
+    font-size: larger;
     font-style: oblique;
 }
